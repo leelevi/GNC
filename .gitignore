@@ -1,0 +1,69 @@
+<<<<<<< HEAD
+src/*.exe
+src/litecoin
+src/litecoind
+src/test_litecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.litecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+litecoin-qt
+Litecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+litecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+=======
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+>>>>>>> 9d8417fd1560b8a5dce25618b1510070bf17825e
